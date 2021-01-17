@@ -2,7 +2,7 @@
  * @Author: sylvanas
  * @Date: 2021-01-17 12:44:18
  * @LastEditors: sylvanas
- * @LastEditTime: 2021-01-17 12:45:02
+ * @LastEditTime: 2021-01-17 13:11:04
  * @Description:
  */
 
@@ -57,9 +57,9 @@ export default function Detail({ detail }) {
 
 // 获取到用户能够访问到的所有的路由参数
 export async function getStaticPaths() {
-	// ["1", "2"]
+	// 数据为 ["1", "2"]
 	let { data } = await axios.get('/api/videos', { baseURL })
-	// [{params: {id: "1"}}]
+	// 结构：[{params: {id: "1"}}]
 	let paths = data.map((id) => ({ params: { id } }))
 	return {
 		paths,
