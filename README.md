@@ -21,6 +21,6 @@ npm install @emotion/babel-preset-css-prop
 # 运行
 npm run dev
 ```
-[chakra-ui](https://chakra-ui.com/docs/getting-started)
-[chakra 使用说明](https://www.yuque.com/mangguotuanzi/aybubb/dtf773#pQXhF)
-[react-icons](http://react-icons.github.io/react-icons/)
+- [chakra-ui](https://chakra-ui.com/docs/getting-started)
+- [chakra 使用说明](https://www.yuque.com/mangguotuanzi/aybubb/dtf773#pQXhF)
+- [react-icons](http://react-icons.github.io/react-icons/)
